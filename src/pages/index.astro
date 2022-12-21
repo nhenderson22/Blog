@@ -1,6 +1,7 @@
 ---
 import Footer from "../components/Footer.astro";
 import Navbar from "../components/Navbar.astro";
+import './styles/global.css'
 ---
 <html lang="en">
 	<head>
@@ -8,7 +9,7 @@ import Navbar from "../components/Navbar.astro";
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="w\idth=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Books</title>
+		<title>Home</title>
 	</head>
 	<body>
 		<div class="root">
@@ -32,11 +33,13 @@ import Navbar from "../components/Navbar.astro";
 <style>
 body{
 	background-color: #282c34;
-	color: #abb2bf
+	color: #abb2bf;
+
 }
 .root{
-	margin-right:30%;
-	margin-left: 30%;
+	max-width: 740px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 </style>

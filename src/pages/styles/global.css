@@ -1,0 +1,9 @@
+@media only screen
+and (min-width: 412px) 
+and (max-width: 869px) {
+    body{
+        background-color: #282c34;
+        color: #abb2bf;
+    
+    }
+}
