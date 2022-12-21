@@ -1,0 +1,42 @@
+---
+import Footer from "../components/Footer.astro";
+import Navbar from "../components/Navbar.astro";
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="w\idth=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Books</title>
+	</head>
+	<body>
+		<div class="root">
+			<Navbar />
+            <h2> About Me </h2>
+            <p>
+                I am a computer science student with a strong interest in backend engineering and Linux systems. In my free time, 
+                I enjoy playing the strategic board game Go and staying active through working out. I am constantly learning and striving to 
+                improve my skills in these areas, and I am excited to see where my passion for technology and problem-solving will take me in my career.
+            </p>
+            <h2> My Mission </h2>
+            <p>
+                I love many things, but I love complaining and teaching the most. This is why I decided to make this website and my youtube channel. I want
+                to provide value to others in a meaningful way.
+            </p>
+			<Footer />
+		</div>
+	</body>
+</html>
+
+<style>
+body{
+	background-color: #282c34;
+	color: #abb2bf
+}
+.root{
+	margin-right:30%;
+	margin-left: 30%;
+}
+
+</style>

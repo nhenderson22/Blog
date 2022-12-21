@@ -1,0 +1,7 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "paths": {
+    "@home": ["./src/pages/index.astro"],
+    "@assets/*": ["src/assets/*"],
+}
+}

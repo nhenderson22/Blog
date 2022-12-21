@@ -1,0 +1,47 @@
+---
+import Footer from "../components/Footer.astro";
+import Navbar from "../components/Navbar.astro";
+const allProj = await Astro.glob('./projects/*.md')
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="w\idth=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Projects</title>
+	</head>
+	<body>
+		<div class="root">
+			<Navbar />
+            <ul class="posts-container">
+                {allProj.map((proj) => <li><a href={proj.url}>{proj.frontmatter.title}</a></li>)}
+            </ul>
+			<Footer />
+		</div>
+	</body>
+</html>
+
+<style>
+body{
+	background-color: #282c34;
+	color: #abb2bf
+}
+.root{
+	margin-right:30%;
+	margin-left: 30%;
+}
+.posts-container{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.posts-container li a{
+    color: #abb2bf;
+    text-decoration: none;
+}
+.posts-container li a:hover{
+    color:#61afef;
+    transition: .4s;
+}
+</style>

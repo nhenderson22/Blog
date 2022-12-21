@@ -1,0 +1,32 @@
+---
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
+const {frontmatter} = Astro.props;
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{frontmatter.title}</title>
+	</head>
+	<body>
+		<div class="root">
+		<Navbar />
+		<slot />
+		<Footer />
+        </div>
+	</body>
+</html>
+
+<style>
+    body{
+        background-color: #282c34;
+        color: #abb2bf
+    }
+    .root{
+        margin-right:30%;
+        margin-left: 30%;
+    }
+    </style>
