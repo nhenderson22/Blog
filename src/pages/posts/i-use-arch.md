@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/NewPost.astro
 title: I use Arch BTW
+pubDate: "Dec 10 2022"
 ---
 ## My first Arch Install
 I decided to swith to Arch for one reason, I hate bloat. I hate when my sytem has things on it that I dont want there, and I hate having to build down to a system I like. This is why I decided to swith to Arch as it is a distro that truly lets me do anything I want. This is great for crafting a workflow that I like and I cant wait to get tinkering!

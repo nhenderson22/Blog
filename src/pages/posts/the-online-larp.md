@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/NewPost.astro
 title: The Online Larp
+pubDate: "Dec 7 2022"
 ---
 ## The Modern Internet
 The modern internet has morphed into a beast that I dont particularly like. Freckled with social media companies trying to steal your time, so called "influencers" leveraging a hopless society for profit, or those trying to make the world a worse place. These trends scare me in a way that I dont particularly like and It seems that we will all have to deal with the consequences.

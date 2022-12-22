@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/NewProj.astro
 title: This Website
+pubDate: "Dec 12 2022"
 ---
 ## Why?
 Ive always wanted my own website. It looks professional, and its a place where I can voice my opinions. So I decided to make this website.
